@@ -121,14 +121,14 @@ wget https://raw.githubusercontent.com/extremeshok/xshok-proxmox/master/xshok_sl
 * Detect AMD EPYC CPU and install kernel 4.15
 * Detect AMD EPYC CPU and Apply EPYC fix to kernel
 
-https://raw.githubusercontent.com/extremeshok/xshok-proxmox/master/install-post.sh
+https://raw.githubusercontent.com/seffyroff/xshok-proxmox/master/install-post.sh
 
 return value is 0
 
 Or run *install-post.sh* after installation
 
 ```
-wget https://raw.githubusercontent.com/extremeshok/xshok-proxmox/master/install-post.sh -c -O install-post.sh && bash install-post.sh && rm install-post.sh
+wget https://raw.githubusercontent.com/seffyroff/xshok-proxmox/master/install-post.sh -c -O install-post.sh && bash install-post.sh && rm install-post.sh
 ```
 
 
